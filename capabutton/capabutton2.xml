@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/orakeldel/Documents/Electronics/Toonie-Box/capabutton_board/capabutton2/capabutton2.kicad_sch</source>
+    <date>Wed Feb 28 23:44:05 2024</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>capabutton2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10pF</value>
+      <footprint>footprint:C0402</footprint>
+      <fields>
+        <field name="LCSC">C32949</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C32949"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe119d0-3dc9-4eba-ad78-464e6f7cf94a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>footprint:C0402</footprint>
+      <fields>
+        <field name="LCSC">C15195</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15195"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a318e567-9f0d-4efe-a303-59cefbc923b3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>footprint:C0402</footprint>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1c5ea92-3d9f-4289-b716-ad4805870b2e</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc742f94-be55-4185-bf20-fd8e40a1a76d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d743d84-7de9-4a37-ad70-a650bba19251</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>solderconnectors:SolderConnector 3x1mm 03x01</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c7fd78b-a3c2-4b4f-bb3c-b61b1600d5d9</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Toggle</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd314d04-220e-4711-8e25-ea96d6267b85</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>White</value>
+      <footprint>footprint:LED-SMD_L3.2-W1.6-RD-EH_WHITE</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220704/6B024AF3FE17DE2BD98DC67B38666694.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3646935</field>
+      </fields>
+      <libsource lib="XL-3216UWC-FB" part="XL-3216UWC-FB" description=""/>
+      <property name="LCSC" value="C3646935"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_keywords" value="C3646935"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27c323c9-e519-4b79-9c50-c5e0443c2cc6</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>~</value>
+      <footprint>footprint:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <fields>
+        <field name="LCSC">C2145</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="LCSC" value="C2145"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbde026f-c9cb-45e3-bf82-1b60e1d09112</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>footprint:R0402</footprint>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b0a0fe0-a167-4eb8-9032-5e618a9b6476</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>footprint:R0402</footprint>
+      <fields>
+        <field name="LCSC">C4109</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4109"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de10d3d2-a396-4fa9-92c4-e7f8a1c586f3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TTP233H-BA6</value>
+      <footprint>footprint:SOT-23-6_L2.9-W1.7-P0.95-LS2.8-BL</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20200724/C708878_279E37B7824B0AB00FB7FFC1BEA70EBD.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2890349</field>
+      </fields>
+      <libsource lib="TTP233H-BA6" part="TTP233H-BA6" description=""/>
+      <property name="LCSC" value="C2890349"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="capabutton2.kicad_sch"/>
+      <property name="ki_keywords" value="C2890349"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75429911-ff48-4a83-9f69-db00dd78cef2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="TTP233H-BA6" part="TTP233H-BA6">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20200724/C708878_279E37B7824B0AB00FB7FFC1BEA70EBD.pdf</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">TTP233H-BA6</field>
+        <field name="Footprint">footprint:SOT-23-6_L2.9-W1.7-P0.95-LS2.8-BL</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20200724/C708878_279E37B7824B0AB00FB7FFC1BEA70EBD.pdf</field>
+        <field name="LCSC">C2890349</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="I" type="input"/>
+        <pin num="4" name="AHLB" type="passive"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="TOG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="XL-3216UWC-FB" part="XL-3216UWC-FB">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20220704/6B024AF3FE17DE2BD98DC67B38666694.pdf</docs>
+      <fields>
+        <field name="Reference">LED1</field>
+        <field name="Value">White</field>
+        <field name="Footprint">footprint:LED-SMD_L3.2-W1.6-RD-EH_WHITE</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20220704/6B024AF3FE17DE2BD98DC67B38666694.pdf</field>
+        <field name="LCSC">C3646935</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="TTP233H-BA6">
+      <uri>/home/orakeldel/Documents/Electronics/JLC2KiCad/JLC2KiCad_lib/symbol/TTP233H-BA6.kicad_sym</uri>
+    </library>
+    <library logical="XL-3216UWC-FB">
+      <uri>/home/orakeldel/Documents/Electronics/JLC2KiCad/JLC2KiCad_lib/symbol/XL-3216UWC-FB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/I">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="I" pintype="input"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="TOG" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(LED1-+)">
+      <node ref="LED1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(LED1--)">
+      <node ref="LED1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(U1-AHLB-Pad4)">
+      <node ref="U1" pin="4" pinfunction="AHLB" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
